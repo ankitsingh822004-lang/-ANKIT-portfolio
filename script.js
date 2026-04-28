@@ -148,8 +148,9 @@ if (downloadBtn) {
   downloadBtn.addEventListener('click', (e) => {
     e.preventDefault();
     showToast('Resume download started! 📄');
+     window.open('https://drive.google.com/file/d/1t7fFSYChQlUlMFJzEDeBpQD9Q5Jn81UM/view?usp=drivesdk' , '_blank');
     // In production, replace href with actual PDF path:
-    // window.open('assets/AnkitSingh_Resume.pdf', '_blank');
+   // window.open('assets/AnkitSingh_Resume.pdf', '_blank');
   });
 }
 
