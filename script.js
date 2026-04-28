@@ -144,6 +144,7 @@ function showToast(message, isError = false) {
 /* ──────────────────────────────────────────────
    RESUME DOWNLOAD BUTTON
 ────────────────────────────────────────────── */
+const downloadBtn = document.getElementById('downloadBtn');
 if (downloadBtn) {
   downloadBtn.addEventListener('click', (e) => {
     e.preventDefault();
